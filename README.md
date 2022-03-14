@@ -7,11 +7,11 @@
 - [Usage](#usage)
 - [How To Run](#how-to-run)
 - [Diagrams](#diagrams)
-- [Dependencies](#dependencies)
 - [Reference](#reference)
 
 ## Overview
 Clean Trash is mobile application that allows users to take a picture of an object to determine if it’s recyclable or not in their county.
+
 Our goal is to reduce current recycling contamination which has a current rate of 25%, reduce pollution, and conserve energy.
 
 ## Team
@@ -22,9 +22,17 @@ Our goal is to reduce current recycling contamination which has a current rate o
 - <a href="https://github.com/briortega" target="_blank">Briana Ortega Vazquez </a>
 
 ## Usage
-Demo: <Link to youtube video>
 
-<Screenshot of application>
+Screenshots of the app
+
+| Login Page | Home Page | Search Bar | Classified Page
+| --- | --- |  --- | --- |
+| <img src="/images/LoginPage.png" alt="LoginPage" width="200"/>  | <img src="/images/HomePage.png" alt="HomePage" width="200"/>  | <img src="/images/SearchBar.png" alt="SearchBar" width="200"/> | <img src="/images/ClassifiedPage.png" alt="ClassifiedPage" width="200"/> |
+
+| Random Facts | Badge Page | Setting Page |
+| --- | --- |  --- |
+| <img src="/images/RandomFacts.png" alt="RandomFacts" width="200"/>  | <img src="/images/BadgePage.png" alt="BadgePage" width="200"/>  | <img src="/images/SettingPage.png" alt="SettingPage" width="200"/> |
+
 
 ## How To Run
 
@@ -34,35 +42,30 @@ Then create a new a new project. In the terminal open a git bash then clone the 
   
     git clone https://github.com/CS-UCR/senior-design-project-ct.git
   
-Once you have cloned the repository direct yourself to the src folder by runing 
+Once you have cloned the repository, [install Flutter](https://docs.flutter.dev/get-started/install?gclid=Cj0KCQjwz7uRBhDRARIsAFqjullXwoQHzcbq8z3lmeC0BInB0g2G4ZGgbBVbAfTk_g0pU5qNsZNmROYaAtzEEALw_wcB&gclsrc=aw.ds).
   
-    cd src
+Remember to setup an Android emulator follow by Flutter website.
   
-  Note: You may have to run cd senior-design-project-ct-main/src
+After installing Flutter, direct into clean_trash_app
   
-You should now be in the src folder. Now run each of these commands in order
+    cd clean_trash_app
+  
+You should now be in the clean_trash_app folder. After opening your emulator, run each of these commands in order
  
-    python -m pip install --upgrade pip wheel setuptools
-    python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
-    python -m pip install kivy.deps.gstreamer
-    python -m pip install kivy.deps.angle
-    python -m pip install pygame
-    python -m pip install kivy
+    flutter pub get
+    flutter run
 
- Now you can just run main by locating the run button under the run tab
- 
- Note: If you only get hi pycharm then you need to right click the main.py file and click run main 
+ Now you can see the app shows up on your simulator
 
 ## Diagrams
 
 Overall System Diagram
-![systemDiagram](/images/systemDiagram.png)
+  
+![systemDiagram](/diagrams/newSystemDiagram.png)
   
 UML for Badge System
-![UML_For_badge](/images/UML_For_badges.png) 
-
-## Dependencies
-Install Node Package Manager (npm). [Helpful Documentation](https://www.npmjs.com/get-npm)
+  
+![UML_For_badge](/diagrams/UML_For_badges.png) 
   
 ## Reference  
 ### Datasets
