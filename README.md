@@ -4,6 +4,7 @@
 ## Table of Contents
 - [Overview](#overview)
 - [Team](#team)
+- [Contribution](#contribution)
 - [Usage](#usage)
 - [How To Run](#how-to-run)
 - [Diagrams](#diagrams)
@@ -20,6 +21,45 @@ Our goal is to reduce current recycling contamination which has a current rate o
 - <a href="https://github.com/Jess-say" target="_blank">Jessie Lu </a>
 - <a href="https://github.com/mandy840907" target="_blank">Tzu-Ying Chuang </a>
 - <a href="https://github.com/briortega" target="_blank">Briana Ortega Vazquez </a>
+
+## Contribution
+
+Estela Ramirez Ramirez
+- Machine learning models
+- New UI
+- Try connecting model
+- Search Bar
+- Script for county 
+- Camera feature
+
+Jessie Lu
+- Old UI
+- New UI
+- Try connecting model
+- Badge system
+- Login and Create Account
+- Firebase
+- Cloud Firestore
+
+Tzu-Ying Chuang
+- Machine learning models
+- New UI
+- Try connecting model
+- Bottom Navigation Bar
+- Badge system
+- Geolocator
+- Setting/Permissions
+- Cloud Firestore
+
+Briana Ortega Vazquez
+- Old UI
+- New UI
+- Try connecting model
+- Bottom modal sheet
+- Full Pages for items
+- unit tests
+- Cloud Firestore
+
 
 ## Usage
 
