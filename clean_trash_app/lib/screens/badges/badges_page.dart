@@ -85,7 +85,7 @@ class _BadgesPageState extends State<BadgesPage> {
                         children: [
                           buildBadgets(
                             Icons.delete,
-                            "Recycle 10 Days",
+                            "Login 10 Days",
                             Color(0xFFC5CAE9),
                             kSecondaryColor,
                           ),
@@ -96,7 +96,7 @@ class _BadgesPageState extends State<BadgesPage> {
                         children: [
                           buildBadgets(
                             Icons.delete_forever,
-                            "Recycle 20 Days",
+                            "Login 20 Days",
                             Color(0xFFB2BFDB),
                             kSecondaryColor,
                           ),
