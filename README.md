@@ -11,7 +11,7 @@
 - [Reference](#reference)
 
 ## Overview
-Clean Trash is mobile application that allows users to take a picture of an object to determine if it’s recyclable or not in their county.
+Clean Trash is a mobile application that allows users to search for an item to determine if it’s recyclable or not in their county.
 
 Our goal is to reduce current recycling contamination which has a current rate of 25%, reduce pollution, and conserve energy.
 
@@ -76,17 +76,14 @@ Screenshots of the app
 
 ## How To Run
 
-To be able to run our project you need to have pycharm downloaded best version is 3.8 as new verison may not work
-  
-Then create a new a new project. In the terminal open a git bash then clone the repository into the project run
+In order to be able to run our project you need to have Flutter. You can install and setup Flutter by following the steps in the link provided. [Install Flutter](https://docs.flutter.dev/get-started/install?gclid=Cj0KCQjwz7uRBhDRARIsAFqjullXwoQHzcbq8z3lmeC0BInB0g2G4ZGgbBVbAfTk_g0pU5qNsZNmROYaAtzEEALw_wcB&gclsrc=aw.ds).
+
+Once you have Flutter installed you want to clone our repository.
   
     git clone https://github.com/CS-UCR/senior-design-project-ct.git
   
-Once you have cloned the repository, [install Flutter](https://docs.flutter.dev/get-started/install?gclid=Cj0KCQjwz7uRBhDRARIsAFqjullXwoQHzcbq8z3lmeC0BInB0g2G4ZGgbBVbAfTk_g0pU5qNsZNmROYaAtzEEALw_wcB&gclsrc=aw.ds).
   
-Remember to setup an Android emulator follow by Flutter website.
-  
-After installing Flutter, direct into clean_trash_app
+After installing Flutter, remember to setup an Android emulator and then direct your terminal into clean_trash_app
   
     cd clean_trash_app
   
